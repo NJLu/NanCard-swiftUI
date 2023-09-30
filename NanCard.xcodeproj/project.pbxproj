@@ -11,6 +11,8 @@
 		32A216762AC88B2500C87F20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A216752AC88B2500C87F20 /* ContentView.swift */; };
 		32A216782AC88B2600C87F20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32A216772AC88B2600C87F20 /* Assets.xcassets */; };
 		32A2167B2AC88B2600C87F20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32A2167A2AC88B2600C87F20 /* Preview Assets.xcassets */; };
+		32A216832AC88E3400C87F20 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32A216822AC88E3400C87F20 /* Pacifico-Regular.ttf */; };
+		32A216862AC8957800C87F20 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A216852AC8957800C87F20 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		32A216752AC88B2500C87F20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		32A216772AC88B2600C87F20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32A2167A2AC88B2600C87F20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		32A216822AC88E3400C87F20 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		32A216842AC88ED300C87F20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		32A216852AC8957800C87F20 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +56,11 @@
 		32A216722AC88B2500C87F20 /* NanCard */ = {
 			isa = PBXGroup;
 			children = (
+				32A216842AC88ED300C87F20 /* Info.plist */,
+				32A216812AC88D5B00C87F20 /* fonts */,
 				32A216732AC88B2500C87F20 /* NanCardApp.swift */,
 				32A216752AC88B2500C87F20 /* ContentView.swift */,
+				32A216852AC8957800C87F20 /* InfoView.swift */,
 				32A216772AC88B2600C87F20 /* Assets.xcassets */,
 				32A216792AC88B2600C87F20 /* Preview Content */,
 			);
@@ -65,6 +73,14 @@
 				32A2167A2AC88B2600C87F20 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		32A216812AC88D5B00C87F20 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				32A216822AC88E3400C87F20 /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32A216832AC88E3400C87F20 /* Pacifico-Regular.ttf in Resources */,
 				32A2167B2AC88B2600C87F20 /* Preview Assets.xcassets in Resources */,
 				32A216782AC88B2600C87F20 /* Assets.xcassets in Resources */,
 			);
@@ -138,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32A216762AC88B2500C87F20 /* ContentView.swift in Sources */,
+				32A216862AC8957800C87F20 /* InfoView.swift in Sources */,
 				32A216742AC88B2500C87F20 /* NanCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +288,7 @@
 				DEVELOPMENT_TEAM = KR2LR7JQBN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NanCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +318,7 @@
 				DEVELOPMENT_TEAM = KR2LR7JQBN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NanCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
